@@ -99,6 +99,11 @@ Note:
 
     CPU instructions are the de facto metric for accounting for CPU utilization.
 
+- **kepler_container_bpf_page_cache_hit_total**
+    This measure the total page cache hit (including write and read) by the container.
+
+    Page cache hit are the metric for memory access and utilization.
+
 - **kepler_container_cache_miss_total** 
     This measures the total cache miss that has occurred for a given container using hardware counters.
 
